@@ -70,14 +70,14 @@ setInterval(() => {
     }
 }, 30_000) // check every 30 seconds
 
-let phoneNumber = ""
+let phoneNumber = "201214482623"
 let owner = JSON.parse(fs.readFileSync('./data/owner.json'))
 
 global.botname = 'body bot'
 global.themeemoji = "•"
 
 // ✅ تم تعديل هذا السطر لتأكيد تفعيل كود الاقتران (Pairing Code) دائماً تلقائياً
-const pairingCode = true
+const pairingCode = false
 const useMobile = process.argv.includes("--mobile")
 
 // Only create readline interface if we're in an interactive environment

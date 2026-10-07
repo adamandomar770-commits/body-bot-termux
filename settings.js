@@ -4,7 +4,7 @@ const settings = {
   botName: 'body bot',
   botOwner: 'عبدالرحمن',
   // اكتب رقمك بصيغة دولية بدون + أو مسافات، مثال مصر: 201xxxxxxxxx
-  ownerNumber: '',
+  ownerNumber: '201214482623',
   giphyApiKey: '',
   commandMode: 'public',
   maxStoreMessages: 20,
